@@ -13,13 +13,17 @@ Dark green: #28b485
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px; /* Se setea en 10px para poder usar rem de forma mas sensilla*/
+}
+
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
   color: #777;
-  padding: 30px;
+  padding: 3rem;
 }
 /* ::-webkit-scrollbar{
     width: 10px;
@@ -52,11 +56,11 @@ body {
 
 .logo-box {
   position: absolute;
-  top: 40px;
-  left: 40px;
+  top: 4rem;
+  left: 4rem;
 }
 .logo {
-  height: 35px;
+  height: 3.5rem;
 }
 
 .text-box {
@@ -75,9 +79,9 @@ body {
 
 .heading-primary-main {
   display: block;
-  font-size: 60px;
+  font-size: 6rem;
   font-weight: 400;
-  letter-spacing: 35px;
+  letter-spacing: 3.5rem;
 
   animation-name: movingToLeft;
   animation-duration: 2s;
@@ -90,9 +94,9 @@ body {
 
 .heading-primary-sub {
   display: block;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 700;
-  letter-spacing: 17.4px;
+  letter-spacing: 1.17rem;
 
   animation-name: movingToRight;
   animation-duration: 2s;
@@ -102,11 +106,11 @@ body {
 @keyframes movingToLeft {
   0% {
     opacity: 0;
-    transform: translateX(-100px);
+    transform: translateX(-10rem);
   }
 
   80% {
-    transform: translate(10px);
+    transform: translate(1rem);
   }
 
   100% {
@@ -118,11 +122,11 @@ body {
 @keyframes movingToRight {
     0% {
       opacity: 0;
-      transform: translateX(100px);
+      transform: translateX(10rem);
     }
   
     80% {
-      transform: translate(-10px);
+      transform: translate(-1rem);
     }
   
     100% {
