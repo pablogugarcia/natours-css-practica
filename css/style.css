@@ -40,11 +40,7 @@ body {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(126, 213, 111, 0.805),
-      rgba(40, 180, 133, 0.798)
-    ),
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.805), rgba(40, 180, 133, 0.798)),
     url(../img/hero.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -54,16 +50,16 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%);
 }
 
-.logo-box {
+.header__logo-box {
   position: absolute;
   top: 4rem;
   left: 4rem;
 }
-.logo {
+.header__logo {
   height: 3.5rem;
 }
 
-.text-box {
+.header__text-box {
   position: absolute;
   top: 40%;
   left: 50%;
@@ -79,7 +75,7 @@ body {
   margin-bottom: 6rem;
 }
 
-.heading-primary-main {
+.heading-primary--main {
   display: block;
   font-size: 6rem;
   font-weight: 400;
@@ -94,7 +90,7 @@ body {
    */
 }
 
-.heading-primary-sub {
+.heading-primary--sub {
   display: block;
   font-size: 2rem;
   font-weight: 700;
@@ -149,16 +145,14 @@ body {
 
 .btn:hover {
   transform: translateY(-0.3rem);
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .3);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3);
 }
 .btn:active {
   transform: translateY(-0.1rem);
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .2);
-
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
-.btn-white{
+.btn--white {
   background-color: #fff;
   color: #777;
-
 }
